@@ -1,0 +1,40 @@
+/* CUSTOM STYLING */
+.main-div {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.query-input-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.query-textarea {
+  resize: none;
+}
+
+.sumbit-btn {
+  margin-left: 10px;
+}
+
+/* Response Section Styling */
+.response-container {
+  padding: 25px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow-y: auto; /* Enables vertical scrolling if the content overflows */
+  text-align: center;
+}
